@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+    <listener class-name="EncorDashboard.Logging.CustomReporter" />
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="EncorDashboard.TestScripts.UserAccess"/>
+    <class name="EncorDashboard.TestScripts.ChangeDashboard"/>
+      <class name="EncorDashboard.TestScripts.AddDashboard"/>
+      <class name="EncorDashboard.TestScripts.UserAdministration"/>
+      <class name="EncorDashboard.TestScripts.SetResetDashboard"/>
+      <class name="EncorDashboard.TestScripts.SetDashboardData"/>
+      <class name="EncorDashboard.TestScripts.SaveCurrentView"/>
+      <class name="EncorDashboard.TestScripts.ExportFile"/> 
+    </classes>
+  </test> <!-- Test -->
+ </suite> <!-- Suite -->

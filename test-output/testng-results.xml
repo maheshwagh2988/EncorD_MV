@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38198" started-at="2019-03-24T09:12:13Z" finished-at="2019-03-24T09:12:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38198" started-at="2019-03-24T09:12:13Z" finished-at="2019-03-24T09:12:51Z">
+      <class name="EncorDashboard.TestScripts.UserAccess">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:EncorDashboard.TestScripts.UserAccess@7193666c]" name="setUp" is-config="true" duration-ms="22143" started-at="2019-03-24T09:12:13Z" finished-at="2019-03-24T09:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UserAccess()[pri:0, instance:EncorDashboard.TestScripts.UserAccess@7193666c]" name="UserAccess" duration-ms="15417" started-at="2019-03-24T09:12:35Z" finished-at="2019-03-24T09:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserAccess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:EncorDashboard.TestScripts.UserAccess@7193666c]" name="tearDown" is-config="true" duration-ms="612" started-at="2019-03-24T09:12:50Z" finished-at="2019-03-24T09:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EncorDashboard.TestScripts.UserAccess -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
